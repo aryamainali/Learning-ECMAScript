@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECMAScript</title>
+  </head>
+  <body>
+    <h1>const</h1>
+    <script type="text/javascript">
+      // variable are changable and can be reassigned and this might cause the typo error in longer codes so the best practice is to use const
+
+      var pizza = true;
+      pizza = false;
+      console.log(pizza);
+      // now in this case there will be error and it will address the type error
+      // this doesnot reset the variable.
+      const apple = true;
+      apple = false;
+      console.log(apple);
+    </script>
+  </body>
+</html>

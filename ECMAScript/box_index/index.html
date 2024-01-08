@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>prac</title>
+  </head>
+  <body>
+    <style>
+      #box {
+        display: 1fr ;
+      }
+
+      .box-item {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+    <div id="box"></div>
+    <script type="text/javascript">
+      var div;
+      var box = document.getElementById("box");
+
+      for (let i = 0; i < 5; i++);
+      div = document.createElement("div");
+      div.onclick = function () {
+        alert("this is box :" + i);
+      };
+      box.appendChild(div);
+    </script>
+  </body>
+</html>
